@@ -32,7 +32,9 @@ public class finalImageFolder {
 			ImageIO.write(saveImage, "jpg", new File(".jpg"));
 			ImageIO.write(saveImage, "png",new File("C:\\Users\\TS\\eclipse-workspace\\SeleniumDemo\\resources\\Imagefile.png"));
 			count++;
-	// now we will click on that link checking for no
+	// now we will click on that link checking for no	
+			
+			//hahkhfcafal
 		}
 
 	}
