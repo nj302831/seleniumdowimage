@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class finalImageFolder {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
+		
+		
 
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\TS\\browserDriver\\chromedriver_win32\\chromedriver.exe");
@@ -30,7 +32,7 @@ public class finalImageFolder {
 			ImageIO.write(saveImage, "jpg", new File(".jpg"));
 			ImageIO.write(saveImage, "png",new File("C:\\Users\\TS\\eclipse-workspace\\SeleniumDemo\\resources\\Imagefile.png"));
 			count++;
-	// now we will click on that link
+	// now we will click on that link checking for no
 		}
 
 	}
