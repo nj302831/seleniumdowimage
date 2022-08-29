@@ -17,7 +17,7 @@ public class finalImageFolder {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\TS\\browserDriver\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("https://techstalwarts.com");
+		driver.get("https://google.com");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		List<WebElement> list = driver.findElements(By.tagName("img"));
@@ -34,7 +34,7 @@ public class finalImageFolder {
 			count++;
 	// now we will click on that link checking for no	
 			
-			//hahkhfcafal
+			
 		}
 
 	}
