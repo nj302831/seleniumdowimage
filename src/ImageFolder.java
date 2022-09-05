@@ -21,7 +21,7 @@ public class ImageFolder {
 		driver.get("https://techstalwarts.com");
 
 //	driver.get("http://www.google.com");
-
+ 
 		driver.manage().window().maximize();
 
 		Thread.sleep(2000);
