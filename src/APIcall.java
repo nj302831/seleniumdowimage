@@ -8,7 +8,9 @@ public class APIcall {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		var url ="https://api.github.com/users/nj302831";
+//		var url ="https://api.github.com/users/nj302831";
+		 var url ="https://api.nationalize.io/?name=nathaniel";
+//		call api -https://api.nationalize.io/?name=nathaniel
 		var request=HttpRequest.newBuilder().GET().uri(URI.create(url)).build();
 		
 		var client= HttpClient.newBuilder().build();
